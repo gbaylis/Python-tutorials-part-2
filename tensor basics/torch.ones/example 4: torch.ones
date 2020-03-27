@@ -1,0 +1,12 @@
+'''
+created by gbaylis
+Mar 27th 2020
+'''
+
+import torch
+
+x = torch.ones(2, 2, dtype=torch.double)
+print(x.dtype)
+
+# output
+# torch.float64
