@@ -1,0 +1,15 @@
+'''
+created by gbaylis
+March 27 2020
+
+use torch to replicate a particular number
+ones can be replaced with zeros
+'''
+
+import torch
+x = torch.ones(2, 2)
+print(x)
+
+# output
+# tensor([[1., 1.],
+#        [1., 1.]])
