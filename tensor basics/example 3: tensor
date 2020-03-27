@@ -1,6 +1,0 @@
-# created by gbaylis on March 27 2020
-# experiment with different numbers
-
-import torch
-x = torch.empty(2, 3, 4)
-print(x)
