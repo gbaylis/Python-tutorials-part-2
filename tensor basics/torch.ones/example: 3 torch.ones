@@ -1,0 +1,7 @@
+import torch
+
+x = torch.ones(2, 2, dtype=torch.int)
+print(x.dtype)
+
+# output
+# torch.int32
