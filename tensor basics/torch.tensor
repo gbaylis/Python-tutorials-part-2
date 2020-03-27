@@ -1,0 +1,8 @@
+# gbaylis on March 27 , 2020
+import torch
+
+x = torch.tensor([3.9. 0.5])
+print(x)
+
+# output
+# tensor([3.9000, 0.5000])
