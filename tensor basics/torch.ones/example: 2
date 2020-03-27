@@ -1,0 +1,8 @@
+import torch
+
+x = torch.ones(2, 2)
+
+print(x.dtype)
+
+# output
+# torch.float32 
