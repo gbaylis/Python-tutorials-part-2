@@ -1,1 +1,9 @@
 # rand = a tensor filled with random numbers
+# created by gbaylis on March 27th 2020
+
+import torch
+x = torch.rand(2, 2)
+print(x)
+
+# output will be 4 decimals, all less then 1 but
+# greater then 0
