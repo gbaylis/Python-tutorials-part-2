@@ -1,0 +1,9 @@
+# created by gbaylis Mar 27th 2020
+# tensor basics
+# I used the mac terminal window
+
+import torch
+
+x.torch.empty(1)
+print(x)
+
