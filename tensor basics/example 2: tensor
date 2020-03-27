@@ -1,7 +1,0 @@
-# created by gbaylis March 27, 2020
-
-import torch
-
-x = torch.empty(3)
-print(x)
-# the output will be 3 decimals 
