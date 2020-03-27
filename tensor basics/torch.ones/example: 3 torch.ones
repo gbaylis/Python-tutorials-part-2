@@ -1,3 +1,8 @@
+'''
+created by gbaylis
+in March 27th 2020
+the .int, to cast the output into an int
+'''
 import torch
 
 x = torch.ones(2, 2, dtype=torch.int)
