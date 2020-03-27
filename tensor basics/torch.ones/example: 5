@@ -1,0 +1,9 @@
+# created by gbaylis
+# on Mar 27th 2020
+import torch
+
+x = torch.ones(2, 2, dypte=torch.float16)
+print(x.dtype)
+
+# output
+# torch.float16
