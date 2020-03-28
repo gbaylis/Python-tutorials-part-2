@@ -1,0 +1,22 @@
+'''
+created by gbaylis on Mar 27th 2020
+
+'''
+
+import torch
+
+x = torch.rand(2,2)
+y = torch.rand(2,2)
+
+print(x)
+print(y)
+
+========================
+import torch
+
+x = torch.rand(2,2)
+y = torch.rand(2,2)
+print(x)
+print(y)
+z = x + y
+print(z)
