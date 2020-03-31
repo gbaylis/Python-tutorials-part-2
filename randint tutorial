@@ -1,0 +1,41 @@
+'''
+gbaylis
+March 31 2020
+
+using randint to replace items in a list
+'''
+
+from random import randint
+monster = ["dracula", "ghoul", "orc", "ogre", "werewolf"]
+#print the original monster list
+print(monster)
+
+def d5():
+     return randint(1,5)
+
+roll = d5()
+if roll == 1:
+    monster.remove("dracula") # remove dracula from the list
+    monster.insert(0,"bat") # replace dracula with bat. same index #
+    print( monster)    
+    
+elif roll == 2:
+    monster.remove("ghoul") # remove ghoul from the list
+    monster.insert(1,"zombie") # replace ghoul with zombie, same index #
+    print( monster)
+    
+elif roll == 3:
+    monster.remove("orc") # remove orc from the list
+    monster.insert(2,"goblin") # replace orc with goblin, same index #
+    print( monster)
+    
+elif roll == 4:
+    monster.remove("ogre") # remove ogre from the list
+    monster.insert(3,"troll") # replace ogre with troll, same index #
+    print( monster)
+    
+elif roll == 5:
+    monster.remove("werewolf") # remove ogre from the list
+    monster.insert(4,"big foot") # replace ogre with troll, same index #
+    print( monster)
+     
