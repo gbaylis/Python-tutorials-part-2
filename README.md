@@ -1,4 +1,4 @@
 # Python-tutorials-part-2
-advanced python tutorials
+python tutorials
 including pytorch, numpy, etc
 
