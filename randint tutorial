@@ -35,7 +35,7 @@ elif roll == 4:
     print( monster)
     
 elif roll == 5:
-    monster.remove("werewolf") # remove ogre from the list
-    monster.insert(4,"big foot") # replace ogre with troll, same index #
+    monster.remove("werewolf") # remove werewolf from the list
+    monster.insert(4,"big foot") # replace werewolf with big foot, same index #
     print( monster)
      
