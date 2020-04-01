@@ -2,3 +2,6 @@ a monster theme app, taking the randint function, and using it to replace an ite
 the first example uses one list
 the 2nd example has a list for each replacement. The 2nd version is better, because it will save time,
 when using an item from any of the lists. 
+
+The 3rd example is a made up scenario set in a fictional video rental store
+it is meant to represent how to replace an item, if an item is removed by chance.
