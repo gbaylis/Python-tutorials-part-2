@@ -1,0 +1,60 @@
+'''
+gbaylis
+April 1st 2020
+
+using randint to replace items in a list
+2nd version
+'''
+
+from random import randint
+# create a list of monsters
+monster = ["dracula", "ghoul", "orc", "ogre", "werewolf"]
+# create one item lists, these will replace items from the monster list
+# the replacement monster has a bracket around it, in the output
+m1 = ["bat"] # this will replace dracula, if roll = 1
+m2 = ["zombie"] # this will replace ghoul, if roll = 2
+m3 = ["goblin"] # this will replace orc, if roll = 3
+m4 = ["troll"] # this will replace ogre, if roll = 4
+m5 = ["big foot"] # this will replace werewolf, if roll = 5
+
+#print the original monster list
+print(monster)
+
+def d5():
+     return randint(1,5)
+
+roll = d5()
+if roll == 1:
+    monster.remove("dracula") # remove dracula from the list
+    # replace dracula with bat, dracula is index 0, use the monster from m1 list
+    monster.insert(0, m1) 
+    print(monster) 
+    print(" dracula was replaced with bat")
+    
+elif roll == 2:
+    monster.remove("ghoul") # remove ghoul from the list
+    # replace ghoul with zombie, ghoul is index 1, use the monster from m2 list
+    monster.insert(1, m2) 
+    print(monster)
+    print(" ghoul was replaced with zombie")
+    
+elif roll == 3:
+    monster.remove("orc") # remove orc from the list
+    # replace orc with goblin, orc is index 2, use the monster from m3 list
+    monster.insert(2, m3) 
+    print(monster)
+    print(" orc was replaced with goblin")
+    
+elif roll == 4:
+    monster.remove("ogre") # remove ogre from the list
+    # replace ogre with troll, ogre is index 3, use the monster from m4 list
+    monster.insert(3, m4) 
+    print(monster)
+    print(" ogre was replaced with troll")
+    
+elif roll == 5:
+    monster.remove("werewolf") # remove werewolf from the list
+    # replace werewolf with bigfoot, werewolf is index 4, use the monster from m5 list
+    monster.insert(4, m5) 
+    print( monster)
+    print(" werewolf was replaced with bigfoot")    
