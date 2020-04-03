@@ -1,0 +1,26 @@
+'''
+gbaylis
+April 3, 2020
+init and functions
+'''
+
+class Spider:
+    def __init__(self,name, age):
+        self.name = name # s = Sam and s2 = Shepard    
+        self.age = age # Sam is 6 and Shepard is 3
+        
+    #function for the name    
+    def get_name(self): 
+        return self.name
+    # function for the age    
+    def get_age(self):
+        return self.age
+
+# now print the name and age        
+s = Spider(" Sam", 6) 
+print(s.get_name()) 
+print(s.get_age()) 
+s2 = Spider(" Shepard", 3)
+print(s2.get_name())   
+print(s2.get_age())
+     
