@@ -1,0 +1,18 @@
+'''
+gbaylis
+April 2nd 2020
+'''
+
+class Spider:
+    
+    def add_one(self, x):
+        return x + 1
+        
+    def weave(self):
+        print("make a web")
+        
+d = Spider()
+d.weave() #output: make a web
+print(d.add_one(5)) #output: 6
+
+print(type(d))
