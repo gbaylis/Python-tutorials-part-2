@@ -1,10 +1,11 @@
 '''
 gbaylis
 April 2nd 2020
+example of a class
 '''
 
-cclass Spider:
-    
+class Spider:
+  # def is used at the start of a new function 
     def weave(self):
         print("make a web")
         
