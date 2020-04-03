@@ -1,0 +1,13 @@
+'''
+gbaylis
+April 3 2020
+'''
+class Spider:
+ # def is used at the start of a new function   
+    def add_one(self, x):
+        return x + 1
+        
+d = Spider()
+print(d.add_one(5)) #output: if x = 5 returnt 5 + 1 = 6
+
+print(type(d)) # the class type
