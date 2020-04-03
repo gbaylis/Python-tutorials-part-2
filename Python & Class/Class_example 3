@@ -1,0 +1,11 @@
+'''
+gbaylis
+April 3, 2020
+'''
+class Spider:
+    # def is used at the start of a new function  
+    def __init__(self, action):
+        self.action = action
+        print(action) 
+        
+s = Spider(" The spider weaves a web")
