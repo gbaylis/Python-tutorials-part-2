@@ -1,0 +1,14 @@
+'''
+gbaylis
+April 3, 2020
+'''
+
+class Spider:
+    # def is used at the start of a new function  
+    def weave(self):
+        print("make a web")
+        
+d = Spider()
+d.weave() #output: make a web
+
+print(type(d)) # the class type
