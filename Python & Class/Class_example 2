@@ -7,7 +7,7 @@ class Spider:
     def add_one(self, x):
         return x + 1
         
-d = Spider()
+s = Spider()
 print(d.add_one(5)) #output: if x = 5 returnt 5 + 1 = 6
 
 print(type(d)) # the class type
