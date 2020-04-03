@@ -11,8 +11,10 @@ class Spider:
     def weave(self):
         print("make a web")
         
-d = Spider()
-d.weave() #output: make a web
-print(d.add_one(5)) #output: 6
+s = Spider()
+s.weave() #output: make a web
+print(s.add_one(5)) #output: 6
 
-print(type(d))
+print(type(s)) # output
+# <class '__main__.Spider'>
+ 
