@@ -1,0 +1,18 @@
+'''
+gbaylis
+April 3, 2020
+
+using the init method to print 2 names
+'''
+
+class Spider:
+    # def is used at the start of a new function 
+    def __init__(self,name):
+        self.name = name        
+# create a spider and give it a name        
+s = Spider(" Sam")
+print(s.name) 
+
+# create a 2nd spider, name it and print the name
+s2 = Spider(" Shepard")
+print(s2.name) 
