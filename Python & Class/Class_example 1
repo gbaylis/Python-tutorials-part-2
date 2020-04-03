@@ -1,0 +1,15 @@
+'''
+gbaylis
+April 2nd 2020
+'''
+
+cclass Spider:
+    
+    def weave(self):
+        print("make a web")
+        
+d = Spider()
+d.weave() #output: make a web
+
+print(type(d)) # the class type
+ 
