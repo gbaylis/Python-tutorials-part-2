@@ -1,0 +1,25 @@
+'''
+gbaylis
+April 3, 2020
+'''
+
+class Spider:
+    def __init__(self,name, age):
+        self.name = name # s = Sam    
+        self.age = age # Sam is 6 
+        
+    def get_name(self): 
+        return self.name
+        
+    def get_age(self): # get age
+        return self.age
+    
+    
+    def set_age(self, age): # set age, for changing the age
+        self.age = age
+        
+# now print the name and age        
+s = Spider(" Sam", 6) 
+print(s.get_name())
+s.set_age(13) # change the age from 6 to 13
+print(s.get_age()) 
