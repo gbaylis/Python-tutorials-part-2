@@ -15,6 +15,20 @@ I feel this program could be worked on and made into a more complex card game
 
 '''
 
+'''
+an example of functions 
+playing cards
+where each card, gets its own function
+
+use randint to draw a card at random
+
+I created this program as a stand alone example of functions
+I could have made this program without functions, however
+I feel this program could be worked on and made into a more complex card game
+
+
+'''
+
 from random import randint
 
 def d52():
@@ -35,15 +49,15 @@ elif rolls == 2:
 # king of hearts
     class king_heart:
        def hcard13(card):
-# which card is it?
             print(" This is the king of hearts \n")
     h13 = king_heart()
     h13.hcard13()
+    
 elif rolls == 3:
-# Queen of hearts
+# queen of hearts
     class queen_heart:
         def hcard12(card):
-            print(" This is the Queen of hearts \n")
+            print(" This is the queen of hearts \n")
     h12 = queen_heart()
     h12.hcard12()
 
@@ -134,8 +148,7 @@ elif rolls == 13:
 elif rolls == 14:
 # Playing cards, ace of diamonds   
     class ace_diamonds:
-        def dcard14(card):
-# print a statement, saying which card it is    
+        def dcard14(card): 
             print(" This is the ace of diamonds \n")
 # d for diamonds
     d14 = ace_diamond()
@@ -145,16 +158,15 @@ elif rolls == 15:
 # king of diamonds
     class king_diamond:
        def dcard13(card):
-
             print(" This is the king of diamonds \n")
     d13 = king_diamond()
     d13.dcard13()
     
 elif rolls == 16:
-# Queen of diamonds
+# queen of diamonds
     class queen_diamond:
         def dcard12(card):
-            print(" This is the Queen of diamonds \n")
+            print(" This is the queen of diamonds \n")
     d12 = queen_diamond()
     d12.dcard12()
 
@@ -244,8 +256,7 @@ elif rolls == 26:
 
 elif rolls == 27:   
     class ace_club:
-        def ccard14(card): 
-# print a statement, saying which card it is    
+        def ccard14(card):   
             print(" This is the ace of clubs \n")
 # c for clubs
     c14 = ace_club()
@@ -260,10 +271,10 @@ elif rolls == 28:
     c13.ccard13()
     
 elif rolls == 29:
-# Queen of clubs
+# queen of clubs
     class queen_club:
         def ccard12(card):
-            print(" This is the Queen of clubs \n")
+            print(" This is the queen of clubs \n")
     c12 = queen_club()
     c12.ccard12()
 
@@ -352,12 +363,11 @@ elif rolls == 39:
 # the spades - 4th suit
 
 elif rolls == 40:
-# Playing cards, ace of Spades  
+# ace of spades  
     class ace_spade:
         def scard14(card): 
 # print a statement, saying which card it is    
             print(" This is the ace of spades \n")
-# h1, 1st card, h for hearts 
     s14 = ace_spade()
     s14.scard14()
 
@@ -370,7 +380,7 @@ elif rolls == 41:
     s13.scard13()
     
 elif rolls == 42:
-# Queen of spades
+# queen of spades
     class queen_spade:
         def scard12(card):
             print(" This is the queen of spades \n")
@@ -456,7 +466,4 @@ elif rolls == 52:
         def scard2(card):
             print(" This is the two of spades \n")
     s2 = two_spade()
-    s2.scard2()  
-
-
-
+    s2.scard2() 
