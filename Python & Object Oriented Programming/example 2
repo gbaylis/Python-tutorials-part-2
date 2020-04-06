@@ -11,4 +11,4 @@ class Spider:
 s = Spider()
 print(s.add_one(5)) #output: if x = 5 returnt 5 + 1 = 6
 
-print(type(d)) # the class type
+print(type(s)) # the class type
