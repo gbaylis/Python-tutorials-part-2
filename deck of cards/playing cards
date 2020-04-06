@@ -1,0 +1,462 @@
+'''
+gbaylis
+April 6th, 2020
+
+an example of functions 
+playing cards
+where each card, gets its own function
+
+use randint to draw a card at random
+
+I created this program as a stand alone example of functions
+I could have made this program without functions, however
+I feel this program could be worked on and made into a more complex card game
+
+
+'''
+
+from random import randint
+
+def d52():
+    return randint(1,52) 
+    
+rolls = d52()
+# Hearts, the 1st suit
+if rolls == 1:   
+    class ace_heart:
+        def hcard14(card): #(card) can be used as many times as you want
+# print a statement, saying which card it is    
+            print(" This is the ace of hearts \n")
+# h1, 1st card, h for hearts 
+    h14 = ace_heart()
+    h14.hcard14()
+
+elif rolls == 2:
+# king of hearts
+    class king_heart:
+       def hcard13(card):
+# which card is it?
+            print(" This is the king of hearts \n")
+    h13 = king_heart()
+    h13.hcard13()
+elif rolls == 3:
+# Queen of hearts
+    class queen_heart:
+        def hcard12(card):
+            print(" This is the Queen of hearts \n")
+    h12 = queen_heart()
+    h12.hcard12()
+
+elif rolls == 4:
+# jack of hearts
+    class jack_heart:
+        def hcard11(card):
+            print(" this is the jack of hearts \n")
+    h11 = jack_heart()
+    h11.hcard11()
+
+elif rolls == 5:
+# 10 of hearts
+    class ten_heart:
+        def hcard10(card):
+            print(" This is the ten of hearts \n")
+    h10 = ten_heart()
+    h10.hcard10()
+
+elif rolls == 6:
+# 9 of hearts 
+    class nine_heart:
+        def hcard9(card):
+            print(" This is the 9 of hearts \n")
+    h9 = nine_heart()
+    h9.hcard9()
+
+
+elif rolls == 7:
+# 8 of hearts
+    class eight_heart:
+        def hcard8(card):
+            print(" This is the eight of hearts \n")
+    h8 = eight_heart()
+    h8.hcard8()        
+
+elif rolls == 8:        
+# 7 of hearts
+    class seven_heart:
+        def hcard7(card):
+            print(" This is the seven of hearts \n") 
+    h7 = seven_heart()
+    h7.hcard7()          
+        
+elif rolls == 9:         
+# 6 of hearts
+    class six_heart:
+        def hcard6(card):
+            print(" This is the six of hearts \n") 
+    h6 = six_heart()
+    h6.hcard6()          
+        
+elif rolls == 10:         
+# 5 of hearts
+    class five_heart:
+        def hcard5(card):
+            print(" This is the five of hearts \n")
+    h5 = five_heart()
+    h5.hcard5()  
+
+elif rolls == 11:        
+# 4 of hearts
+    class four_heart:
+        def hcard4(card):
+            print(" This is the four of hearts \n")
+    h4 = four_heart()
+    h4.hcard4()         
+        
+elif rolls == 12:         
+# 3 of hearts
+    class three_heart:
+        def hcard3(card):
+            print(" This is the three of hearts \n")
+    h3 = three_heart()
+    h3.hcard3() 
+
+elif rolls == 13: 
+# 2 of hearts
+    class two_heart:
+        def hcard2(card):
+            print(" This is the two of hearts \n")
+    h2 = two_heart()
+    h2.hcard2()  
+    
+    
+# the diamonds, 2nd suit
+
+elif rolls == 14:
+# Playing cards, ace of diamonds   
+    class ace_diamonds:
+        def dcard14(card):
+# print a statement, saying which card it is    
+            print(" This is the ace of diamonds \n")
+# d for diamonds
+    d14 = ace_diamond()
+    d14.dcard14()
+
+elif rolls == 15:
+# king of diamonds
+    class king_diamond:
+       def dcard13(card):
+
+            print(" This is the king of diamonds \n")
+    d13 = king_diamond()
+    d13.dcard13()
+    
+elif rolls == 16:
+# Queen of diamonds
+    class queen_diamond:
+        def dcard12(card):
+            print(" This is the Queen of diamonds \n")
+    d12 = queen_diamond()
+    d12.dcard12()
+
+elif rolls == 17:
+# jack of diamonds
+    class jack_diamond:
+        def dcard11(card):
+            print(" this is the jack of diamonds \n")
+    d11 = jack_diamond()
+    d11.dcard11()
+
+elif rolls == 18:
+# 10 of diamonds
+    class ten_diamond:
+        def dcard10(card):
+            print(" This is the ten of diamonds \n")
+    d10 = ten_diamond()
+    d10.dcard10()
+
+elif rolls == 19:
+# 9 of diamonds 
+    class nine_diamond:
+        def dcard9(card):
+            print(" This is the 9 of diamonds \n")
+    d9 = nine_diamond()
+    d9.dcard9()
+
+
+elif rolls == 20:
+# 8 of diamonds
+    class eight_diamond:
+        def dcard8(card):
+            print(" This is the eight of diamonds \n")
+    d8 = eight_diamond()
+    d8.dcard8()        
+
+elif rolls == 21:        
+# 7 of diamonds
+    class seven_diamond:
+        def dcard7(card):
+            print(" This is the seven of diamonds \n") 
+    d7 = seven_diamond()
+    d7.dcard7()          
+        
+elif rolls == 22:         
+# 6 of diamonds
+    class six_diamond:
+        def dcard6(card):
+            print(" This is the six of diamonds \n") 
+    d6 = six_diamond()
+    d6.dcard6()          
+        
+elif rolls == 23:         
+# 5 of diamonds
+    class five_diamond:
+        def dcard5(card):
+            print(" This is the five of diamonds \n")
+    d5 = five_diamond()
+    d5.dcard5()  
+
+elif rolls == 24:        
+# 4 of diamonds
+    class four_diamond:
+        def dcard4(card):
+            print(" This is the four of diamonds \n")
+    d4 = four_diamond()
+    d4.dcard4()         
+        
+elif rolls == 25:         
+# 3 of diamonds
+    class three_diamond:
+        def dcard3(card):
+            print(" This is the three of diamonds \n")
+    d3 = three_diamond()
+    d3.dcard3() 
+
+elif rolls == 26: 
+# 2 of diamonds
+    class two_diamond:
+        def dcard2(card):
+            print(" This is the two of diamonds \n")
+    d2 = two_diamond()
+    d2.dcard2()
+    
+    
+# Clubs , 3rd suit
+
+elif rolls == 27:   
+    class ace_club:
+        def ccard14(card): 
+# print a statement, saying which card it is    
+            print(" This is the ace of clubs \n")
+# c for clubs
+    c14 = ace_club()
+    c14.ccard14()
+
+elif rolls == 28:
+# king of clubs
+    class king_club:
+       def ccard13(card):
+            print(" This is the king of clubs \n")
+    c13 = king_club()
+    c13.ccard13()
+    
+elif rolls == 29:
+# Queen of clubs
+    class queen_club:
+        def ccard12(card):
+            print(" This is the Queen of clubs \n")
+    c12 = queen_club()
+    c12.ccard12()
+
+elif rolls == 30:
+# jack of clubs
+    class jack_club:
+        def ccard11(card):
+            print(" this is the jack of clubs \n")
+    c11 = jack_club()
+    c11.ccard11()
+
+elif rolls == 31:
+# 10 of clubs
+    class ten_club:
+        def ccard10(card):
+            print(" This is the ten of clubs \n")
+    c10 = ten_club()
+    c10.ccard10()
+
+elif rolls == 32:
+# 9 of clubs
+    class nine_club:
+        def ccard9(card):
+            print(" This is the 9 of clubs \n")
+    c9 = nine_club()
+    c9.ccard9()
+
+
+elif rolls == 33:
+# 8 of clubs
+    class eight_club:
+        def ccard8(card):
+            print(" This is the eight of clubs \n")
+    c8 = eight_club()
+    c8.ccard8()        
+
+elif rolls == 34:        
+# 7 of clubs
+    class seven_club:
+        def bcard7(card):
+            print(" This is the seven of clubs \n") 
+    c7 = seven_club()
+    c7.ccard7()          
+        
+elif rolls == 35:         
+# 6 of clubs
+    class six_club:
+        def ccard6(card):
+            print(" This is the six of clubs \n") 
+    c6 = six_club()
+    c6.ccard6()          
+        
+elif rolls == 36:         
+# 5 of clubs
+    class five_club:
+        def ccard5(card):
+            print(" This is the five of clubs \n")
+    c5 = five_club()
+    c5.ccard5()  
+
+elif rolls == 37:        
+# 4 of clubs
+    class four_club:
+        def ccard4(card):
+            print(" This is the four of clubs \n")
+    c4 = four_club()
+    c4.ccard4()         
+        
+elif rolls == 38:         
+# 3 of clubs
+    class three_club:
+        def ccard3(card):
+            print(" This is the three of clubs \n")
+    c3 = three_club()
+    c3.ccard3() 
+
+elif rolls == 39: 
+# 2 of clubs
+    class two_club:
+        def ccard2(card):
+            print(" This is the two of hearts \n")
+    c2 = two_club()
+    c2.ccard2()  
+    
+    
+# the spades - 4th suit
+
+elif rolls == 40:
+# Playing cards, ace of Spades  
+    class ace_spade:
+        def scard14(card): 
+# print a statement, saying which card it is    
+            print(" This is the ace of spades \n")
+# h1, 1st card, h for hearts 
+    s14 = ace_spade()
+    s14.scard14()
+
+elif rolls == 41:
+# king of spades
+    class king_spade:
+       def scard13(card):
+            print(" This is the king of spades \n")
+    s13 = king_spade()
+    s13.scard13()
+    
+elif rolls == 42:
+# Queen of spades
+    class queen_spade:
+        def scard12(card):
+            print(" This is the queen of spades \n")
+    s12 = queen_spade()
+    s12.scard12()
+
+elif rolls == 43:
+# jack of spades
+    class jack_spade:
+        def scard11(card):
+            print(" this is the jack of spades \n")
+    s11 = jack_spade()
+    s11.scard11()
+
+elif rolls == 44:
+# 10 of spades
+    class ten_spade:
+        def scard10(card):
+            print(" This is the ten of spades \n")
+    s10 = ten_spade()
+    s10.scard10()
+
+elif rolls == 45:
+# 9 of spades 
+    class nine_spade:
+        def scard9(card):
+            print(" This is the 9 of spades \n")
+    s9 = nine_heart()
+    s9.scard9()
+
+
+elif rolls == 46:
+# 8 of spades
+    class eight_spade:
+        def scard8(card):
+            print(" This is the eight of spades \n")
+    s8 = eight_spades()
+    s8.scard8()        
+
+elif rolls == 47:        
+# 7 of spades
+    class seven_spade:
+        def scard7(card):
+            print(" This is the seven of spades \n") 
+    s7 = seven_spade()
+    s7.scard7()          
+        
+elif rolls == 48:         
+# 6 of spades
+    class six_spade:
+        def scard6(card):
+            print(" This is the six of spades \n") 
+    s6 = six_heart()
+    s6.scard6()          
+        
+elif rolls == 49:         
+# 5 of spades
+    class five_spade:
+        def scard5(card):
+            print(" This is the five of spades \n")
+    s5 = five_spade()
+    s5.scard5()  
+
+elif rolls == 50:        
+# 4 of spades
+    class four_spade:
+        def scard4(card):
+            print(" This is the four of spades \n")
+    s4 = four_spade()
+    s4.scard4()         
+        
+elif rolls == 51:         
+# 3 of spades
+    class three_spade:
+        def scard3(card):
+            print(" This is the three of spades \n")
+    s3 = three_spade()
+    s3.scard3() 
+
+elif rolls == 52: 
+# 2 of spades
+    class two_spade:
+        def scard2(card):
+            print(" This is the two of spades \n")
+    s2 = two_spade()
+    s2.scard2()  
+
+
+
