@@ -1,0 +1,9 @@
+# arranging a list of numbers, into groups of 3
+# put the numbers in groups of 3 and print the list
+# Created by gbaylis  Mar 8th 2020
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+window_size=3 # window size determines how many numbers go on a line
+# create a for loop
+for i in range(len(digits)-2):
+    print(digits[i:i+window_size])
