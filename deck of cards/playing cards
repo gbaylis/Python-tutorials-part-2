@@ -15,19 +15,6 @@ I feel this program could be worked on and made into a more complex card game
 
 '''
 
-'''
-an example of functions 
-playing cards
-where each card, gets its own function
-
-use randint to draw a card at random
-
-I created this program as a stand alone example of functions
-I could have made this program without functions, however
-I feel this program could be worked on and made into a more complex card game
-
-
-'''
 
 from random import randint
 
