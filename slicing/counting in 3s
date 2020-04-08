@@ -1,0 +1,18 @@
+'''
+counting in 3s
+gbaylis
+April 7 2020
+'''
+
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 0, to 14, in increments of 2
+print(digits[0:14:2]) # would print: 0, 2, 4, 6, 8, 10, 12
+
+# create a for loop
+# start at 0 and count in increments of 3 
+# 0,1,2 
+# 1, 2, 3 
+# etc
+for i in range(len(digits)):
+    print(digits[i:i+3])
