@@ -1,0 +1,14 @@
+'''
+slicing and for loops
+
+slicing / created by gbaylis on March 8th, 2020
+'''
+
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 0, to 14, in increments of 2
+print(digits[0:14:2]) # would print: 0, 2, 4, 6, 8, 10, 12
+
+# create a for loop
+for i in range(len(digits)):
+    print(digits[0:i])
