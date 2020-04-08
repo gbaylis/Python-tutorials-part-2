@@ -1,0 +1,27 @@
+'''
+gbaylis
+April 8th 2020
+optional parameters
+'''
+class car(object):
+    def __init__(self, make1, model1, year1, make2, model2, year2):
+        #if showAll is True, use this car
+        self.make1 = make1
+        self.model1 = model1
+        self.year1 = year1
+        # if showAll is False, use this car
+        self.make2 = make2
+        self.model2 = model2
+        self.year2 = year2
+    
+    def display(self, showAll=True):
+        if showAll:
+            print(" This first car is a %s %s %s " %(self.make1, self.model1, self.year1))
+        else:
+            print(" This second car is a %s %s %s " %(self.make2, self.model2, self.year2))
+            
+lot = car(' Toyota ', ' Camry ', 1990, ' Honda ', ' Accord ', 2000)
+lot.display(True)
+
+#output
+# This first car is a  Toyota   Camry  1990
