@@ -1,0 +1,8 @@
+'''
+gbaylis
+April 9 2020
+'''
+def func(word, freq):
+    print(word*freq)
+    
+call = func('keys', 5) # repeat the word keys 5 times
