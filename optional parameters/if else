@@ -3,36 +3,25 @@ gbaylis
 April 9, 2020
 '''
 
-class book1(object):
-    def __init__(self, title1, genre1, pages1, author1):
-        # Game of Thrones
+class book(object):
+    def __init__(self, title1, author1, genre1, title2, author2, genre2):
+        #The Lord of the Rings
         self.title1 = title1
-        self.genre1 = genre1
-        self.pages1 = pages1
         self.author1 = author1
-        
-class book2(object):
-    def __init__(self, title2, genre2, pages2, author2):        
-        
-        # LOTR
+        self.genre1 = genre1
+        #Game of Thrones
         self.title2 = title2
-        self.genre2 = genre2
-        self.pages2 = pages2
         self.author2 = author2
+        self.genre2 = genre2
         
     def display(self, showAll):
-        if showAll: # GoT
-            print(" This book you choose")
-            print("Title: %s" %(self.title2))
-            print("Genre: %s" %(self.genre2))
-            print("Pages:  %s" %(self.pages2))
-            print("Author: %s" %(self.author2))
-        
-        else: # The Hobbit
-            print(" or read %s, its in the %s genre,  Its %s pages long" %(self.title2, self.genre2, self.pages2))
-            print(" written by %s " %(self.author2))
+        if showAll:
+            print(" If you have not read it already, I suggest you read")
+            print("%s written by %s, you will find it in the %s section" %(self.title1, self.author1, self.genre1))
+        else:
+            print(" Oh, you have alreadt read Lord of the Rings, then I suggest you read")
+            print("%s written by %s, you will find it in the %s section" %(self.title2, self.author2, self.genre2))
             
-read = book1('The Hobbit', 'Fantasy', '310', 'J.R.R Tolkien')
-read = book2('Game of Thrones', 'Fantasy', '694', 'George R. R. Martin')
+read = book(' The Lord of the Rings ', ' J.R.R Tolkien ', ' fantasy ', ' Game of Thrones ', ' George R.R. Martin ', ' fantasy ')    
 read.display(True)
-# output would be Game of Thrones, book1
+        
