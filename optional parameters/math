@@ -1,0 +1,9 @@
+'''
+gbaylis
+April 9 , 2020
+'''
+def nails(word,repeat=5):
+    print(word/repeat)
+    
+call = nails(20)
+#  output:  4.0
