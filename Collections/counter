@@ -1,1 +1,17 @@
+'''
+gbaylis
+April  14, 2020
+'''
+import collections
+from collections import Counter
 
+# count the # of times each letter appears
+c = Counter(['a', 'a', 'b', 'c', 'c', 'd', 'a','d'])
+print(c)
+
+c = Counter({'a':3, 'b':2, 'c':1})
+print(c)
+
+# print the number of books
+c = Counter(books=4, magazines=7)
+print(c['books'])
