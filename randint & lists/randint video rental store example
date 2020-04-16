@@ -1,6 +1,6 @@
 '''
 gbaylis
-April 1 2020
+Python | randint & lists
 '''
 # video rental store
 from random import randint
