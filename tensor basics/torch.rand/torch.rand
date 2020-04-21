@@ -1,5 +1,5 @@
 # rand = a tensor filled with random numbers
-# created by gbaylis on March 27th 2020.  
+# gbaylis | Python
 
 import torch
 x = torch.rand(2, 2)
