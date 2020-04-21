@@ -1,0 +1,42 @@
+'''
+gbaylis | Python | a random item from a list
+'''
+import random
+
+class Color(object):
+    def __init__(self, color):
+        self.color = color
+
+    @property
+    def mycolor(self):
+        try:
+            return self.mycolor1
+        except AttributeError:
+            # If it's not defined yet, define it, and then return it
+            self.mycolor1 = random.choice(['white', 'black', 'green', 'blue', 'orange', 'grey'])
+            return self.mycolor1
+
+c = Color(' Your color')
+
+# one for shapes
+class Shapes(object):
+    def __init__(self, shape):
+        self.shape = shape
+
+    @property
+    def myshape(self):
+        try:
+            return self.myshape1
+        except AttributeError:
+            # If it's not defined yet, define it, and then return it
+            self.myshape1 = random.choice(['triangle', 'square', 'circle', 'rectangle', 'oval', 'octagon'])
+            return self.myshape1
+
+s = Shapes(' Your shape')
+
+# print colors and shapes
+print(" You see a " + c.mycolor + " " + s.myshape)
+
+# you could print the color and shape this way
+# print(c.mycolor)
+# print(s.myshape)
