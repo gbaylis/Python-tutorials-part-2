@@ -1,0 +1,37 @@
+'''
+gbaylis
+Python | pick a random item from a list & add that same item to another list
+I thought of a roulette wheel at a carnival, spinning it 
+and winning a prize, based on where the arrow points on the wheel
+'''
+
+yName = input("What is your name ")
+print(" Hello " + yName + " you won a prize at a carnival")
+
+import random
+# create an empty list
+my_items = []
+#create a class, for the prize item
+class Prize(object):
+    def __init__(self, prize):
+        self.prize = prize
+
+    @property
+    def myprize(self):
+        try:
+            return self.myprize1
+        except AttributeError:
+            # If it's not defined yet, define it, and then return it
+            self.myprize1 = random.choice([' $1 bill ', ' $5 bill ', ' pack of gum', 
+' bottle of gatorade ', ' a paper back novel', ' a coffee mug '])
+            return self.myprize1
+p = Prize(' Your Prize')
+
+print(" You win a " + p.myprize)
+# add the prize, to your list
+my_items.append(p.myprize)
+#print the list, with the prize now in the list
+print(my_items)
+
+
+
