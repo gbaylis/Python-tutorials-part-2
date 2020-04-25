@@ -5,3 +5,5 @@ when using an item from any of the lists.
 
 The 3rd example is a made up scenario set in a fictional video rental store
 it is meant to represent how to replace an item, if an item is removed by chance.
+
+I added other examples to demonstrate what is possible with randint and lists
