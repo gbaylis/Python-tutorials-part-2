@@ -18,7 +18,7 @@ name = "_1_2_3_a_b_c"
 # skip every other character, to skip over the under scores.
 print(name[7::2])
 
-#only the numbers
+# print only the numbers
 #start at index 0, stop at index 9 and only print 1 out of every 4 characters
 number="1abc2def3ghi"
 print(number[0:9:4])
