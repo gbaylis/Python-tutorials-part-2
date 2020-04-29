@@ -1,0 +1,22 @@
+'''
+counting from 0 to 12
+gbaylis | Python
+examples of slicing
+'''
+
+# slicing
+
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 0, to 14, in increments of 2
+print(digits[0:14:2]) # would print: 0, 2, 4, 6, 8, 10, 12
+
+name = "_1_2_3_a_b_c"
+#if you wanted only the letters
+#so not need that 2nd number, because we are going to the end
+print(name[7::2])
+
+#only the numbers
+#start at index 0, stop at index 9 and only print 1 out of every 4 characters
+number="1abc2def3ghi"
+print(number[0:9:4])
