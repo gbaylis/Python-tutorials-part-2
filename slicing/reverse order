@@ -1,0 +1,24 @@
+'''
+Slicing is a way to select certaint numbers or strings from a list
+selecting items in a list, in reverse order
+
+gbaylis | Python
+'''
+
+
+
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 14, count down by twos, because in this example, its negative 2
+print(digits[14:0:-2]) # would print: 14, 12, 10, 8, 6, 4, 2
+
+
+#create a list, the alphabet
+#print the alphabet backwards
+alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o',
+'p','q','r','s','t','u','v','w','x','y','z']
+#start at the 26th index position, count to the start of the list and use negative one, to go in reverse order
+print(alphabet[26::-1])
+
+
+
