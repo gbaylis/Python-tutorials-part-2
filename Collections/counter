@@ -1,6 +1,6 @@
 '''
-gbaylis
-April  14, 2020
+gbaylis | Python
+
 '''
 import collections
 from collections import Counter
