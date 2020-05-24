@@ -1,6 +1,5 @@
 '''
-gbaylis
-April 9 2020
+gbaylis | gbyalis
 '''
 
 class person(object):
