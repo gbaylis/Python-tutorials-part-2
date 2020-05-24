@@ -1,7 +1,6 @@
 '''
 slicing and for loops
-
-slicing / created by gbaylis on March 8th, 2020
+gbaylis | Python
 '''
 
 digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
