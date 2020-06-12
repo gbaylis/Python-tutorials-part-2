@@ -1,6 +1,5 @@
 '''
 created by gbaylis
-March 27 2020
 
 use torch to replicate a particular number
 ones can be replaced with zeros
