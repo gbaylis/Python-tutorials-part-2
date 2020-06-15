@@ -1,0 +1,9 @@
+'''
+gbaylis | python
+print all the numbers, from 0 to 100
+that are NOT divisible by either 7 or 11
+without continue
+'''
+for x in range(100):
+    if x % 7 != 0 or x % 11 != 0:
+        print(x)
