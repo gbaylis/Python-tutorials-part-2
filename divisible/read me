@@ -1,0 +1,4 @@
+a program that will print every number in a list
+except for numbers, divisible by another number
+for example if you wanted to remove all even numbers
+you could not print all numbers divided by 2
