@@ -1,0 +1,9 @@
+import time
+yname = input("What is your name? .... ") 
+# pause for 5 seconds
+time.sleep(5)
+print(" Hello " + yname)
+print("*******")
+# pause for 3 seconds
+time.sleep(3)
+print("Goodbye " + yname)
