@@ -1,3 +1,8 @@
+'''
+gbaylis | Python
+time.sleep
+how to create a pause in the code, measured in seconds. 
+'''
 import time
 yname = input("What is your name? .... ") 
 # pause for 5 seconds
