@@ -1,6 +1,6 @@
 '''
 gbaylis
-April 8th 2020
+
 optional parameters
 '''
 class car(object):
