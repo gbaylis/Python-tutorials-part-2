@@ -1,9 +1,9 @@
 '''
 gbaylis
-April 3 2020
+Python | class
 '''
 
-lass Spider:
+class Spider:
     # def is used at the start of a new function  
     def __init__(self, action):
         self.action = action
