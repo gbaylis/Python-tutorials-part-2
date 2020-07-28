@@ -1,0 +1,11 @@
+'''
+gbaylis | Python
+Arguments
+'''
+
+def my_function(fname):
+    print(fname + " is my sibling")
+    
+my_function("John")
+my_function("Sarah")
+my_function("Peter")
