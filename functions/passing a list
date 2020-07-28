@@ -1,0 +1,10 @@
+'''
+gbaylis | Python
+passing a list in a function
+'''
+def my_function(food):
+    for x in food:
+        print(x)
+        
+food = ["bread", "meat", "cheese"]
+my_function(food)
