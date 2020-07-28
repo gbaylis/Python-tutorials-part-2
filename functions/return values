@@ -1,0 +1,10 @@
+'''
+gbaylis | Python
+return values
+'''
+def my_function(x):
+    return 10 * x
+
+print(my_function(2)) # 20
+print(my_function(4)) # 40 
+print(my_function(6)) # 60 
