@@ -34,7 +34,7 @@ s3 = ["Total Recall"]
 # since there is only one copy of each movie 
 # each time a movie is rented, replace it with another employee favorite  
 # use randint as way to represent a movie that may be rented on any given day
-# when a movie is rented, print a statement that tells what movie replaced it
+# when a movie was rented, print a statement that tells what movie replaced it
 
 def d9():
      return randint(1,9)
@@ -43,21 +43,21 @@ roll = d9()
 if roll == 1:
     mark_fav.remove("Blue Velvet") 
     mark_fav.insert(0, m1) 
-    # if Blue Velvet is rented, replace it with Twin Peaks
+    # if Blue Velvet was rented, replace it with Twin Peaks
     print(mark_fav) 
     print(" Blue Velvet was rented and replaced with Twin Peaks Fire Walk with Me")
     
 elif roll == 2:
     mark_fav.remove("Dune") 
     mark_fav.insert(1, m2) 
-    # if Dune is rented, replace it with Wild at Heart
+    # if Dune was rented, replace it with Wild at Heart
     print(mark_fav) 
     print(" Dune was rented and replaced with Wild at Heart")
     
 elif roll == 3:
     mark_fav.remove("Mulholland Drive") 
     mark_fav.insert(2, m3) 
-    # if Mulholland Drive is rented, replace it with Lost Highway
+    # if Mulholland Drive was rented, replace it with Lost Highway
     print(mark_fav) 
     print(" Mulholland Drive was rented and replaced with Lost Highway")
     
