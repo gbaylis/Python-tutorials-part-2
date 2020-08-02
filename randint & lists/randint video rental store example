@@ -1,105 +1,99 @@
 '''
 gbaylis
-Python | randint & lists
+Python | randint & lists | video rental store
+
+ Near the counter of the video rental store are 3 shelves of movies, called "employee favorites"
+ if a movie gets rented, replace that movie, with another employee favorite
+ a list of the movies that are on David's favorite movie shelf
+ more of David's favorite movies
+ if a movie from David's favorite movie shelf is rented, replace it with one of his other favorites.
 '''
-# video rental store
+
 from random import randint
 
-# near the counter of the video rental store are 3 shelves of movies, called "employee favorites"
-# if a movie gets rented, replace that movie, with another employee favorite
-# a list of the movies that are on David's favorite movie shelf
-mark_fav = ["Blue Velvet", "Dune", "Mulholland Drive"]
-# more of David's favorite movies
-# if a movie from David's favorite movie shelf is rented, replace it with one of his other favorites.
-m1 = ["Twin Peaks Fire Walk with Me"]
-m2 = ["Wild at Heart"]
-m3 = ["Lost Highway"]
+# Mark
+mark_fav = ["Blue Velvet", "Mulholland Drive", "Dune"]
+m1 = "Twin Peaks Fire Walk with Me"
+m2 = "Wild at Heart"
+m3 = "Lost Highway"
 
-# a list of Gary's favorite movies
-gary_fav = ["The Mask", "Monty Python","Ace Ventura"]
-# more of Gary's favorite movies
-# if a movie from Gary's favorite movie shelf is rented, replace it with one of his other favorites.
-g1 = ["Aladdin"]
-g2 = ["The Addam's Family"]
-g3 = ["Home Alone"]
+#Gary
+gary_fav = ["The Mask", "Monty Python", "Ace Ventura"]
+g1 = "Alladin"
+g2 = "The Addam's Family"
+g3 = "Home Alone"
 
-# a list of Shelly's favorite movies
+#shelly
 shelly_fav = ["Excalibur", "Frankenstein", "Temple of Doom"]
-# more of Shelly's favorite movies
-# if a movie from Shelly's favorite movie shelf is rented, replace it with one of her other favorites.
-s1 = ["The Lord of the Rings"]
-s2 = ["The Running Man"]
-s3 = ["Total Recall"]
+s1 = "The Lord of the Rings"
+s2 = "The Running Man"
+s3 = "Total Recall"
 
-# since there is only one copy of each movie 
-# each time a movie is rented, replace it with another employee favorite  
-# use randint as way to represent a movie that may be rented on any given day
-# when a movie was rented, print a statement that tells what movie replaced it
-
+# the rand int fucntion, randomly choose the movie that was rented
 def d9():
-     return randint(1,9)
-
+    return randint(1,9)
+    
 roll = d9()
 if roll == 1:
-    mark_fav.remove("Blue Velvet") 
-    mark_fav.insert(0, m1) 
-    # if Blue Velvet was rented, replace it with Twin Peaks
-    print(mark_fav) 
-    print(" Blue Velvet was rented and replaced with Twin Peaks Fire Walk with Me")
+   # mark_fav.remove("Blue Velvet")
+    # mark_fav.insert(0,m1)
+    mark_fav[0] = m1
+    print(mark_fav)
+    print(" Blue Velvet was rented and replaced with " + m1)
     
 elif roll == 2:
-    mark_fav.remove("Dune") 
-    mark_fav.insert(1, m2) 
-    # if Dune was rented, replace it with Wild at Heart
-    print(mark_fav) 
-    print(" Dune was rented and replaced with Wild at Heart")
+    #mark_fav.remove("Dune")
+    #mark_fav.insert(1, m2)
+    mark_fav[1] = m2
+    print(mark_fav)
+    print(" Mulholland Drive was rented and replace with " + m2)
     
 elif roll == 3:
-    mark_fav.remove("Mulholland Drive") 
-    mark_fav.insert(2, m3) 
-    # if Mulholland Drive was rented, replace it with Lost Highway
-    print(mark_fav) 
-    print(" Mulholland Drive was rented and replaced with Lost Highway")
+    #mark_fav.remove("Mulholland Drive")
+    #mark_fav.insert(2, m3)
+    mark_fav[2] = m3
+    print(mark_fav)
+    print(" Dune was rented and replaced with " + m3)
     
 elif roll == 4:
-    gary_fav.remove("The Mask") 
-    gary_fav.insert(0, g1) 
-    # If The Mask was rented, replace it with Aladdin
-    print(gary_fav) 
-    print(" The Mask was rented, replace it with Aladdin")
+    #gary_fav.remove("The Mask")
+    #gary_fav.insert(0, g1)
+    gary_fav[0] = g1
+    print(gary_fav)
+    print(" The mask was rented replace it with " + g1)
     
 elif roll == 5:
-    gary_fav.remove("Monty Python") 
-    gary_fav.insert(1, g2) 
-    # If Monty Python was rented, replace it with The Addam's Family
-    print(gary_fav) 
-    print(" The Mask was rented, replace it with Aladdin")
+    #gary_fav.remove("Monty Python")
+    #gary.fav.insert(1, g2)
+    gary_fav[1] = g2
+    print(gary_fav)
+    print(" Monty Python was rented, replace it with " + g2)
     
 elif roll == 6:
-    gary_fav.remove("Ace Ventura") 
-    gary_fav.insert(2, g3) 
-    # If Ace Ventura was rented, replace it with Home Alone
-    print(gary_fav) 
-    print(" Ace Ventura was rented, replace it with Home Alone")
+    #gary_fav.remove("Ace Ventura")
+    #gary_fav.insert(2, g3)
+    gary_fav[2] = g3
+    print(gary_fav)
+    print(" Ace Ventura was rented replace it with " + g3)
     
 elif roll == 7:
-    shelly_fav.remove("Excalibur") 
-    shelly_fav.insert(0, s1) 
-    # If Excalibur was rented, replace it with The Lord of the Rings
-    print(shelly_fav) 
-    print(" Excalibur was rented, replace it with The Lord of the Rings")
+    #shelly_fav.remove("Excalibur")
+    #shelly_fav.insert(0, s1)
+    shelly_fav[0] = s1
+    print(shelly_fav)
+    print(" Excalibur was rented, repalce it with " + s1)
     
 elif roll == 8:
-    shelly_fav.remove("Frankenstein") 
-    shelly_fav.insert(1, s2) 
-    # If Frankenstein was rented, replace it with The Running Man
-    print(shelly_fav) 
-    print(" Frankenstein was rented, replace it with The Running Man")
+    #shelly_fav.remove("Frankenstein")
+    #shelly_fav.insert(1, s2)
+    shelly_fav[1] = s2
+    print(shelly_fav)
+    print(" Frankenstein was rented, replace it with " + s2)
     
-elif roll == 9:
-    shelly_fav.remove("Temple of Doom") 
-    shelly_fav.insert(2, s3) 
-    # If Temple of Doom was rented, replace it with Total Recall
-    print(shelly_fav) 
-    print(" Temple of Doom was rented, replace it with Total Recall")     
+else:
+    shelly_fav.remove("Temple of Doom")
+    shelly_fav.insert(2, s3)
+    shelly_fav[2] = s3
+    print(shelly_fav)
+    print(" Temple of Doom has been rented, replace it with " + s3)
     
