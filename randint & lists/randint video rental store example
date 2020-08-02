@@ -11,12 +11,12 @@ Python | randint & lists | video rental store
 
 from random import randint
 
+rented = " was rented, replace it with "
+
 mark_fav = ["Blue Velvet", "Mulholland Drive", "Dune"]
 m1 = "Twin Peaks Fire Walk with Me"
 m2 = "Wild at Heart"
 m3 = "Lost Highway"
-
-rented = " was rented, replace it with "
 
 #Gary
 gary_fav = ["The Mask", "Monty Python", "Ace Ventura"]
