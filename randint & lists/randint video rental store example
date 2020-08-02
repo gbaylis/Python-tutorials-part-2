@@ -11,11 +11,12 @@ Python | randint & lists | video rental store
 
 from random import randint
 
-# Mark
 mark_fav = ["Blue Velvet", "Mulholland Drive", "Dune"]
 m1 = "Twin Peaks Fire Walk with Me"
 m2 = "Wild at Heart"
 m3 = "Lost Highway"
+
+rented = " was rented, replace it with "
 
 #Gary
 gary_fav = ["The Mask", "Monty Python", "Ace Ventura"]
@@ -35,65 +36,49 @@ def d9():
     
 roll = d9()
 if roll == 1:
-   # mark_fav.remove("Blue Velvet")
-    # mark_fav.insert(0,m1)
     mark_fav[0] = m1
     print(mark_fav)
-    print(" Blue Velvet was rented and replaced with " + m1)
+    print(" Blue Velvet " + rented + m1)
     
 elif roll == 2:
-    #mark_fav.remove("Dune")
-    #mark_fav.insert(1, m2)
     mark_fav[1] = m2
     print(mark_fav)
-    print(" Mulholland Drive was rented and replace with " + m2)
+    print("Mulholland Drive" + rented + m2)
     
 elif roll == 3:
-    #mark_fav.remove("Mulholland Drive")
-    #mark_fav.insert(2, m3)
     mark_fav[2] = m3
     print(mark_fav)
-    print(" Dune was rented and replaced with " + m3)
+    print(" Dune" + rented + m3)
     
 elif roll == 4:
-    #gary_fav.remove("The Mask")
-    #gary_fav.insert(0, g1)
     gary_fav[0] = g1
     print(gary_fav)
-    print(" The mask was rented replace it with " + g1)
+    print(" The Mask" + rented + g1)
     
 elif roll == 5:
-    #gary_fav.remove("Monty Python")
-    #gary.fav.insert(1, g2)
     gary_fav[1] = g2
     print(gary_fav)
-    print(" Monty Python was rented, replace it with " + g2)
+    print(" Monty Python" + rented + g2)
     
 elif roll == 6:
-    #gary_fav.remove("Ace Ventura")
-    #gary_fav.insert(2, g3)
     gary_fav[2] = g3
     print(gary_fav)
-    print(" Ace Ventura was rented replace it with " + g3)
+    print(" Ace Ventura" + rented + g3)
     
 elif roll == 7:
-    #shelly_fav.remove("Excalibur")
-    #shelly_fav.insert(0, s1)
     shelly_fav[0] = s1
     print(shelly_fav)
-    print(" Excalibur was rented, repalce it with " + s1)
+    print(" Excalibur" + rented + s1)
     
 elif roll == 8:
-    #shelly_fav.remove("Frankenstein")
-    #shelly_fav.insert(1, s2)
     shelly_fav[1] = s2
     print(shelly_fav)
-    print(" Frankenstein was rented, replace it with " + s2)
+    print(" Frankenstein" + rented + s2)
     
 else:
     shelly_fav.remove("Temple of Doom")
     shelly_fav.insert(2, s3)
     shelly_fav[2] = s3
     print(shelly_fav)
-    print(" Temple of Doom has been rented, replace it with " + s3)
+    print(" Temple of Doom" + rented + s3)
     
