@@ -76,8 +76,6 @@ elif roll == 8:
     print(" Frankenstein" + rented + s2)
     
 else:
-    shelly_fav.remove("Temple of Doom")
-    shelly_fav.insert(2, s3)
     shelly_fav[2] = s3
     print(shelly_fav)
     print(" Temple of Doom" + rented + s3)
