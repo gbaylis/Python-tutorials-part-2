@@ -3,10 +3,8 @@ gbaylis
 Python | randint & lists | video rental store
 
  Near the counter of the video rental store are 3 shelves of movies, called "employee favorites"
- if a movie gets rented, replace that movie, with another employee favorite
- a list of the movies that are on David's favorite movie shelf
- more of David's favorite movies
- if a movie from David's favorite movie shelf is rented, replace it with one of his other favorites.
+ If a movie gets rented, replace that movie, with another employee favorite
+ All 3 employees have 3 movies on their favorites shelf
 '''
 
 from random import randint
